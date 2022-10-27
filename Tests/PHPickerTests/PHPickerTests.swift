@@ -7,5 +7,7 @@ final class PHPickerTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         
+        let picker = PhotoPicker(photo: .constant(nil))
+        print(picker)
     }
 }
